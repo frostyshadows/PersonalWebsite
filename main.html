@@ -11,6 +11,9 @@
         <a href="#aboutMe">About</a>
     </li>
     <li>
+        <a href="#skills">Relevant skills</a>
+    </li>
+    <li>
         <a href="#projects">Projects</a>
     </li>
     <li>
@@ -24,46 +27,188 @@
 <div id="aboutMe">
     <h2>Sherry (Xin Yu) Yuan</h2>
     <p>
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit,
-        sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-        Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris
-        nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in
-        reprehenderit in voluptate velit esse cillum dolore eu fugiat
-        nulla pariatur. Excepteur sint occaecat cupidatat non proident,
-        sunt in culpa qui officia deserunt mollit anim id est laborum.
+        Hello, I’m Sherry.
+        I study Computer Science at the University of British Columbia
+        with a minor in Psychology. I’m most interested in Android,
+        iOS and web development and have completed projects in all three
+        through various personal projects, course projects, club projects and at Hackathons.
+        I’m passionate about giving everyone an opportunity to explore Computer Science;
+        I volunteer on UBC CS’s Committee for Outreach, Diversity and Equity
+        as well as work as an undergraduate teaching assistant.
+        My other hobbies include art, writing, piano and video games.
+
     </p>
+</div>
+
+<div id="skills">
+    <h2>Relevant skills</h2>
+    <h3>Languages</h3>
+    <ul>
+        <li>Java</li>
+        <li>C/C++</li>
+        <li>Swift</li>
+        <li>HTML and CSS</li>
+        <li>Javascript</li>
+        <li>English, Mandarin and French</li>
+    </ul>
+    <h3>Experience with</h3>
+    <ul>
+        <li>Android development</li>
+        <li>iOS development</li>
+        <li>Web development</li>
+        <li>JUnit and Xcode unit testing</li>
+        <li>Firebase</li>
+        <li>Git</li>
+    </ul>
 </div>
 
 <div id="projects">
     <h2>Projects</h2>
     <ul>
         <li>
-            <h5>insightUBC</h5>
-            <p>Query engine for UBC data</p>
+            <a href="#insightUBCModal">
+                <h3>insightUBC</h3>
+                <p>Query engine for UBC data</p>
+            </a>
+            <div id="insightUBCModal" class="modalDialog">
+                <p>
+                    Description: Created as a course project, insightUBC is a query engine
+                    for parsing and querying UBC courses and rooms data.The back-end includes
+                    a dataset controller, which can parse JSON and HTML files, and a query-controller,
+                    which can handle multiple queries in the form of JSON strings.
+                    The front-end is simple and intuitive, allowing users to select a dataset
+                    and apply queries.
+                </p>
+                <p>
+                    Technologies: Typescript, HTML, CSS, Javascript, Node.js,Mocha testing framework,
+                    HTML5 Parser API, Google Maps API, Webstorm
+                </p>
+            </div>
         </li>
         <li>
-            <h5>Fluffy Tab</h5>
-            <p>Chrome extension</p>
+            <a href="#fluffyTabModal">
+                <h3>Fluffy Tab</h3>
+                <p>Chrome extension</p>
+            </a>
+            <div id="fluffyTabModal" class="modalDialog">
+                <p>
+                    Description: Description: My boyfriend and I wanted to try making a chrome extension;
+                    Fluffy Tab displays a random cat gif every time users open a new tab.
+                    He wrote most of the manifest file, and I wrote most of the HTML.
+                    The project turned out to be quite simple once I found The Cat API.
+                </p>
+                <p>
+                    Technologies: HTML, The Cat API, Webstorm
+                </p>
+                <p>
+                    Github: https://github.com/frostyshadows/FluffyTab
+                </p>
+            </div>
         </li>
         <li>
-            <h5>Mood Music Bot</h5>
-            <p>Twitter bot recommending music based on mood</p>
+            <a href="#moodMusicModal">
+                <h3>Mood Music Bot</h3>
+                <p>Twitter bot recommending music based on mood</p>
+            </a>
+            <div id="moodMusicModal" class="modalDialog">
+                <p>
+                    Description: My UBC Hacks team wrote a bot to respond with a music recommendation
+                    to tweets with the hashtag #MoodMusicPls based on sentient analysis of the tweet.
+                    I wrote code working with Twitter’s API including creating a stream to listen for
+                    #MoodMusicPls and tweeting music recommendations at the correct user.
+                </p>
+                <p>
+                    Technologies: Javascript, Node.js, Twitter API, SpotifyWebApi,
+                    Vivekn Sentiment Analysis, WebStorm
+                </p>
+                <p>
+                    Github: https://github.com/UBCLocalHack2016/mood-music
+                </p>
+            </div>
         </li>
         <li>
-            <h5>Learners Quiz</h5>
-            <p>iOS app to help users prepare for ICBC Learner's test</p>
+            <a href="#learnersModal">
+                <h3>Learners Quiz</h3>
+                <p>iOS app to help users prepare for ICBC Learner's test</p>
+            </a>
+            <div id="learnersModal" class="modalDialog">
+                <p>
+                    Description: Created with a group of friends as a summer project,
+                    Learner’s Quiz is an iOS app designed to help users prepare for ICBC’s
+                    Learner license test. I implemented model classes to select a random road sign,
+                    the correct label for the sign and three random incorrect labels and
+                    the calculation of the final score. I also worked on the ViewController classes and
+                    with AutoLayout to display data from model classes.
+                </p>
+                <p>
+                    Technologies: Swift, XCode
+                </p>
+                <p>
+                    Github: https://github.com/frostyshadows/LearnersQuiz
+                </p>
+            </div>
         </li>
         <li>
-            <h5>Rocket Poll</h5>
-            <p>iOS polling app</p>
+            <a href="#rocketPollModal">
+                <h3>Rocket Poll</h3>
+                <p>iOS polling app</p>
+            </a>
+            <div id="rocketPollModal" class="modalDialog">
+                <p>
+                    Description: Rocket Poll is an iOS app that can replace iClickers created by Launch Pad,
+                    a UBC software development club. Users can create an account and ask a timed
+                    multiple choice question or answer polls submitted by other users. This was my first
+                    Launch Pad and I was thrown into the world of Scrum, JIRA and command line Git.
+                    In addition to becoming proficient in source control, I implemented the timer,
+                    the tally of correct answers for each question, the addition of user data to
+                    our Firebase database and wrote Xcode unit tests.
+                </p>
+                <p>
+                    Technologies: Swift, Firebase, XCode
+                </p>
+                <p>
+                    Github: https://github.com/ubclaunchpad/pollingapp
+                </p>
+            </div>
         </li>
         <li>
-            <h5>Pac Man Run</h5>
-            <p>Augmented reality Android running app</p>
+            <a href="#pacmanModal">
+                <h3>Pac Man Run</h3>
+                <p>Augmented reality Android running app</p>
+            </a>
+            <div id="pacmanModal" class="modalDialog">
+                <p>
+                    Description: Created during nwHacks, Pac Man Run is an augmented reality
+                    Android running game. The player’s goal is to pick up virtual food pellets along
+                    a running route while avoiding moving ghosts. I implemented the MainActivity menu
+                    and score calculator, wrote XML layout files and worked on MapsActivity,
+                    where most of the game logic was, with the rest of the team.
+                </p>
+                <p>
+                    Technologies: Java, Google Maps API, Android Studio
+                </p>
+                <p>
+                    Github: https://github.com/yonniluu/nwHacks
+                </p>
+            </div>
         </li>
         <li>
-            <h5>Mind the Gap</h5>
-            <p>Android transit app</p>
+            <a href="#mindTheGapModal">
+                <h3>Mind the Gap</h3>
+                <p>Android transit app</p>
+            </a>
+            <div id="mindTheGapModal" class="modalDialog">
+                <p>
+                    Description: Created as a course project, Mind the Gap is an Android transit app
+                    for London Underground. I implemented model classes representing tube lines,
+                    tube stations, arrival board and arrival estimates. I also wrote JSON parsers
+                    to show location of stops and tube lines on the London Underground and display arrival
+                    information in real time.
+                </p>
+                <p>
+                    Technologies: Java, JUnit testing, Google Maps API, Transport for London API, Intellij
+                </p>
+            </div>
         </li>
     </ul>
 </div>
