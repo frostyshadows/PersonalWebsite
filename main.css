@@ -1,3 +1,20 @@
+@font-face {
+    font-family: lyonBold;
+    src: url(./resources/lyon-bold.ttf);
+}
+
+@font-face {
+    font-family: lyonItalic;
+    src: url(./resources/lyon-italic.ttf);
+}
+
+@font-face {
+    font-family: gordita;
+    src:url(./resources/gordita.otf);
+    font-weight: bold;
+}
+
+
 #menu {
     position: fixed;
     right:20px;
@@ -17,19 +34,33 @@ a:hover {
     color: gray;
 }
 
-h2 {
+h1 {
     color: #2653d1;
+    font-family: gordita;
 }
 h3 {
     color: #e9147c;
+    font-family: lyonBold;
+    font-size: 1.5em;
 }
 
 p {
     color: #000000;
+    font-family: Baskerville;
+    font-size: 1.2em;
 }
 
 li {
     color: #00424c;
+    font-family: Baskerville;
+}
+
+#skills li{
+    font-size: 1.2em;
+}
+
+#projects li{
+    font-size: 1em;
 }
 
 #content {
