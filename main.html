@@ -9,25 +9,25 @@
 <div id="menu">
     <ul>
         <li>
-            <a href="#aboutMe">About</a>
+            <a href="#aboutMe" id="aboutMenu">About</a>
         </li>
         <li>
-            <a href="#skills">Relevant skills</a>
+            <a href="#skills" id="skillsMenu">Relevant <br> skills</a>
         </li>
         <li>
-            <a href="#projects">Projects</a>
+            <a href="#projects" id="projectsMenu">Projects</a>
         </li>
         <li>
-            <a href="#contact">Contact</a>
+            <a href="#contact" id="contactMenu">Contact</a>
         </li>
         <li>
-            <a href="Resume.pdf" target="_blank">Resume</a>
+            <a href="Resume.pdf" id="resumeMenu" target="_blank">Resume</a>
         </li>
     </ul>
 </div>
 <div id="content">
     <div id="aboutMe">
-        <h2>Sherry (Xin Yu) Yuan</h2>
+        <h2 class="section">Sherry (Xin Yu) Yuan</h2>
         <p>
             Hello, I’m Sherry.
             I study Computer Science at the University of British Columbia
@@ -38,12 +38,12 @@
             I volunteer on UBC CS’s Committee for Outreach, Diversity and Equity
             as well as work as an undergraduate teaching assistant.
             My other hobbies include art, writing, piano and video games.
-
         </p>
     </div>
 
     <div id="skills">
-        <h2>Relevant skills</h2>
+        <h2 class="section">Relevant skills</h2>
+        <div id="languages">
         <h3>Languages</h3>
         <ul>
             <li>Java</li>
@@ -53,6 +53,8 @@
             <li>Javascript</li>
             <li>English, Mandarin and French</li>
         </ul>
+            </div>
+        <div id="experience">
         <h3>Experience with</h3>
         <ul>
             <li>Android development</li>
@@ -62,10 +64,11 @@
             <li>Firebase</li>
             <li>Git</li>
         </ul>
+            </div>
     </div>
 
     <div id="projects">
-        <h2>Projects</h2>
+        <h2 class="section">Projects</h2>
         <ul>
             <li id="insightId">
                 <a href="#insightUBCModal">
@@ -108,7 +111,7 @@
                             Technologies: HTML, The Cat API, Webstorm
                         </p>
                         <p>
-                            Github: https://github.com/frostyshadows/FluffyTab
+                            <a href="https://github.com/frostyshadows/FluffyTab" target="_blank">Github</a>
                         </p>
                     </div>
                 </div>
@@ -132,7 +135,7 @@
                             Vivekn Sentiment Analysis, WebStorm
                         </p>
                         <p>
-                            Github: https://github.com/UBCLocalHack2016/mood-music
+                            <a href="https://github.com/UBCLocalHack2016/mood-music" target="_blank">Github</a>
                         </p>
                     </div>
                 </div>
@@ -157,7 +160,7 @@
                             Technologies: Swift, XCode
                         </p>
                         <p>
-                            Github: https://github.com/frostyshadows/LearnersQuiz
+                            <a href="https://github.com/frostyshadows/LearnersQuiz" target="_blank">Github</a>
                         </p>
                     </div>
                 </div>
@@ -183,7 +186,7 @@
                             Technologies: Swift, Firebase, XCode
                         </p>
                         <p>
-                            Github: https://github.com/ubclaunchpad/pollingapp
+                            <a href="https://github.com/ubclaunchpad/pollingapp" target="_blank">Github</a>
                         </p>
                     </div>
                 </div>
@@ -207,7 +210,7 @@
                             Technologies: Java, Google Maps API, Android Studio
                         </p>
                         <p>
-                            Github: https://github.com/yonniluu/nwHacks
+                            <a href="https://github.com/yonniluu/nwHacks" target="_blank">Github</a>
                         </p>
                     </div>
                 </div>
@@ -237,16 +240,16 @@
     </div>
 
     <div id="contact">
-        <h2>Contact</h2>
+        <h2 class="section">Contact</h2>
         <ul>
             <li>
-                <a href="https://github.com/frostyshadows" target="_blank">Github</a>
+                <a href="https://github.com/frostyshadows" target="_blank"><img src="./resources/github-logo.svg" alt="Github"></a>
             </li>
             <li>
-                <a href="https://ca.linkedin.com/in/sherry-yuan-375291a2" target="_blank">LinkedIn</a>
+                <a href="https://ca.linkedin.com/in/sherry-yuan-375291a2" target="_blank"><img src="./resources/linkedin-logo.svg" alt="LinkedIn"></a>
             </li>
             <li>
-                <a href="https://www.instagram.com/frostyshadows/?hl=en" target="_blank">Instagram</a>
+                <a href="https://www.instagram.com/frostyshadows/?hl=en" target="_blank"><img src="./resources/instagram-logo.svg" alt="Instagram"></a>
             </li>
         </ul>
     </div>

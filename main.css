@@ -1,10 +1,43 @@
 #menu {
-    float: right;
+    position: fixed;
+    right:20px;
+    top:0;
+}
+
+body {
+    background-color: #d0e1db;
+    background-image: url(./resources/background-texture2.jpg);
+}
+
+a {
+    text-decoration: none;
+}
+
+a:hover {
+    color: gray;
+}
+
+h2 {
+    color: #2653d1;
+}
+h3 {
+    color: #e9147c;
+}
+
+p {
+    color: #000000;
+}
+
+li {
+    color: #00424c;
 }
 
 #content {
-    float: right;
+    margin: auto;
     width: 75%;
+    box-shadow: 0 0 20px #000000;
+    padding: 10px 20px 10px 20px;
+    background-color: #ffffff;
 }
 
 .modalDialog {
@@ -35,8 +68,6 @@
     padding: 5px 20px 13px 20px;
     border-radius: 10px;
     background: #fff;
-    background: -moz-linear-gradient(#fff, #999);
-    background: -webkit-linear-gradient(#fff, #999);
     background: -o-linear-gradient(#fff, #999);
 }
 
@@ -51,12 +82,88 @@
     width: 24px;
     text-decoration: none;
     font-weight: bold;
-    -webkit-border-radius: 12px;
-    -moz-border-radius: 12px;
     border-radius: 12px;
-    -moz-box-shadow: 1px 1px 3px #000;
-    -webkit-box-shadow: 1px 1px 3px #000;
     box-shadow: 1px 1px 3px #000;
+}
+
+li {
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+#aboutMe, #skills, #projects, #contact {
+    padding-top: 20px;
+}
+
+#aboutMenu {
+    color: #ffffff;
+    padding: 5px;
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    line-height: 50px;
+    background: #e9147c;
+}
+
+#skillsMenu {
+    color: #ffffff;
+    padding: 5px;
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    background: #2ac9e9;
+}
+
+#languages, #experience {
+    width: 50%;
+    float: left;
+}
+
+#projectsMenu {
+    color: #ffffff;
+    padding: 5px;
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    background: #e9147c;
+}
+
+#contactMenu {
+    color: #ffffff;
+    padding: 5px;
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    background: #e9cc20;
+}
+
+#resumeMenu {
+    color: #ffffff;
+    padding: 5px;
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    background: #2653d1;
+}
+
+#contact ul {
+    text-align: justify;
+    margin: auto;
+    width: 40%;
+}
+
+#contact ul:after{
+    content: ' ';
+    display: inline-block;
+    width: 100%;
+}
+
+#contact ul li {
+    display: inline-block;
+}
+
+.section {
+    text-align: center;
 }
 
 .close:hover { background: #00d9ff; }
