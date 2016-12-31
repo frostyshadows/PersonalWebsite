@@ -30,6 +30,10 @@ a {
     text-decoration: none;
 }
 
+#banner {
+    text-align: center;
+}
+
 a:hover {
     color: gray;
 }
@@ -38,6 +42,7 @@ h1 {
     color: #2653d1;
     font-family: gordita;
 }
+
 h3 {
     color: #e9147c;
     font-family: lyonBold;
@@ -59,8 +64,12 @@ li {
     font-size: 1.2em;
 }
 
-#projects li{
+#projects ul li {
     font-size: 1em;
+    text-align: center;
+    list-style-type: none;
+    width: 33%;
+    float: left;
 }
 
 #content {
@@ -127,22 +136,21 @@ li {
 }
 
 #aboutMenu {
+    list-style-type: none;
     color: #ffffff;
-    padding: 5px;
-    width: 200px;
-    height: 200px;
-    border-radius: 50%;
-    line-height: 50px;
-    background: #e9147c;
+    background-image: url(./resources/pink-dot.png);
+    box-shadow: 0 0 10px #000000;
 }
 
 #skillsMenu {
+    list-style-type: none;
     color: #ffffff;
     padding: 5px;
     width: 200px;
     height: 200px;
     border-radius: 50%;
     background: #2ac9e9;
+    box-shadow: 0 0 10px #000000;
 }
 
 #languages, #experience {
@@ -151,46 +159,41 @@ li {
 }
 
 #projectsMenu {
+    list-style-type: none;
     color: #ffffff;
     padding: 5px;
     width: 200px;
     height: 200px;
     border-radius: 50%;
     background: #e9147c;
+    box-shadow: 0 0 10px #000000;
 }
 
 #contactMenu {
+    list-style-type: none;
     color: #ffffff;
     padding: 5px;
     width: 200px;
     height: 200px;
     border-radius: 50%;
     background: #e9cc20;
+    box-shadow: 0 0 10px #000000;
 }
 
 #resumeMenu {
+    list-style-type: none;
     color: #ffffff;
     padding: 5px;
     width: 200px;
     height: 200px;
     border-radius: 50%;
     background: #2653d1;
+    box-shadow: 0 0 10px #000000;
 }
 
-#contact ul {
-    text-align: justify;
-    margin: auto;
-    width: 40%;
-}
-
-#contact ul:after{
-    content: ' ';
-    display: inline-block;
-    width: 100%;
-}
-
-#contact ul li {
-    display: inline-block;
+#contactLinks {
+    display: table;
+    margin: 0 auto;
 }
 
 .section {
