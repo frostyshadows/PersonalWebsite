@@ -136,11 +136,15 @@ li {
     overflow: auto;
 }
 
+.menuImg {
+    position: relative;
+}
+
 #aboutMenu {
-    list-style-type: none;
+    left: 60px;
+    top: 62px;
+    position: absolute;
     color: #ffffff;
-    background-image: url(./resources/pink-dot.png);
-    box-shadow: 0 0 10px #000000;
 }
 
 #skillsMenu {
@@ -160,14 +164,10 @@ li {
 }
 
 #projectsMenu {
-    list-style-type: none;
+    left: 57px;
+    top: 240px;
+    position: absolute;
     color: #ffffff;
-    padding: 5px;
-    width: 200px;
-    height: 200px;
-    border-radius: 50%;
-    background: #e9147c;
-    box-shadow: 0 0 10px #000000;
 }
 
 #contactMenu {
