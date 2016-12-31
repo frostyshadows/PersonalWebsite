@@ -133,6 +133,7 @@ li {
 
 #aboutMe, #skills, #projects, #contact {
     padding-top: 20px;
+    overflow: auto;
 }
 
 #aboutMenu {
