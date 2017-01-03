@@ -17,7 +17,7 @@
 
 #menu {
     position: fixed;
-    right:20px;
+    right:35px;
     top:0;
 }
 
@@ -31,7 +31,18 @@ a {
 }
 
 #banner {
+    padding-top: 70px;
+    padding-bottom: 70px;
     text-align: center;
+    font-size: 2em;
+}
+
+#banner h1 {
+    color: #ffffff;
+}
+
+#banner p {
+    color: #ffffff;
 }
 
 a:hover {
@@ -58,10 +69,15 @@ p {
 li {
     color: #00424c;
     font-family: Baskerville;
+    list-style: none;
 }
 
 #skills li{
     font-size: 1.2em;
+}
+
+#projects ul{
+    padding: 0;
 }
 
 #projects ul li {
@@ -78,6 +94,8 @@ li {
     box-shadow: 0 0 20px #000000;
     padding: 10px 20px 10px 20px;
     background-color: #ffffff;
+    background-image: url(./resources/watercolor-background.jpg);
+    background-repeat: no-repeat;
 }
 
 .modalDialog {
@@ -106,7 +124,6 @@ li {
     position: relative;
     margin: 10% auto;
     padding: 5px 20px 13px 20px;
-    border-radius: 10px;
     background: #fff;
     background: -o-linear-gradient(#fff, #999);
 }
@@ -126,7 +143,7 @@ li {
     box-shadow: 1px 1px 3px #000;
 }
 
-li {
+#skills li {
     margin-top: 30px;
     margin-bottom: 30px;
 }
@@ -137,25 +154,23 @@ li {
 }
 
 .menuImg {
+    width: 65px;
     position: relative;
 }
 
 #aboutMenu {
-    left: 60px;
-    top: 62px;
+    left: 53px;
+    top: 40px;
     position: absolute;
     color: #ffffff;
 }
 
 #skillsMenu {
-    list-style-type: none;
+    text-align: center;
+    left: 45px;
+    top: 101px;
+    position: absolute;
     color: #ffffff;
-    padding: 5px;
-    width: 200px;
-    height: 200px;
-    border-radius: 50%;
-    background: #2ac9e9;
-    box-shadow: 0 0 10px #000000;
 }
 
 #languages, #experience {
@@ -164,32 +179,28 @@ li {
 }
 
 #projectsMenu {
-    left: 57px;
-    top: 240px;
+    left: 50px;
+    top: 177px;
     position: absolute;
     color: #ffffff;
 }
 
 #contactMenu {
-    list-style-type: none;
+    left: 48px;
+    top: 247px;
+    position: absolute;
     color: #ffffff;
-    padding: 5px;
-    width: 200px;
-    height: 200px;
-    border-radius: 50%;
-    background: #e9cc20;
-    box-shadow: 0 0 10px #000000;
 }
 
 #resumeMenu {
-    list-style-type: none;
+    left: 48px;
+    top: 316px;
+    position: absolute;
     color: #ffffff;
-    padding: 5px;
-    width: 200px;
-    height: 200px;
-    border-radius: 50%;
-    background: #2653d1;
-    box-shadow: 0 0 10px #000000;
+}
+
+#aboutMenu:hover, #skillsMenu:hover, #projectsMenu:hover, #contactMenu:hover, #resumeMenu:hover {
+    color: #e2e2e2;
 }
 
 #contactLinks {

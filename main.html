@@ -3,6 +3,8 @@
 <head>
     <meta charset="UTF-8">
     <link rel="stylesheet" href="main.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+    <script src="main.js"></script>
     <title>Sherry's Website</title>
 </head>
 <body>
@@ -13,6 +15,7 @@
             <a href="#aboutMe" id="aboutMenu">About</a>
         </li>
         <li>
+            <img src="./resources/blue-dot.png" class="menuImg">
             <a href="#skills" id="skillsMenu">Relevant <br> skills</a>
         </li>
         <li>
@@ -20,9 +23,11 @@
             <a href="#projects" id="projectsMenu">Projects</a>
         </li>
         <li>
+            <img src="./resources/yellow-dot.png" class="menuImg">
             <a href="#contact" id="contactMenu">Contact</a>
         </li>
         <li>
+            <img src="./resources/dark-blue-dot.png" class="menuImg">
             <a href="Resume.pdf" id="resumeMenu" target="_blank">Resume</a>
         </li>
     </ul>
@@ -84,16 +89,16 @@
                 <div id="insightUBCModal" class="modalDialog">
                     <div>
                         <a href="#close" title="Close" class="close">X</a>
-                        <p>
-                            Description: Created as a course project, insightUBC is a query engine
+                        <h3>Description</h3>
+                        <p>Created as a course project, insightUBC is a query engine
                             for parsing and querying UBC courses and rooms data.The back-end includes
                             a dataset controller, which can parse JSON and HTML files, and a query-controller,
                             which can handle multiple queries in the form of JSON strings.
                             The front-end is simple and intuitive, allowing users to select a dataset
                             and apply queries.
                         </p>
-                        <p>
-                            Technologies: Typescript, HTML, CSS, Javascript, Node.js,Mocha testing framework,
+                        <h3>Technologies</h3>
+                        <p>Typescript, HTML, CSS, Javascript, Node.js,Mocha testing framework,
                             HTML5 Parser API, Google Maps API, Webstorm
                         </p>
                     </div>
@@ -107,14 +112,14 @@
                 <div id="fluffyTabModal" class="modalDialog">
                     <div>
                         <a href="#close" title="Close" class="close">X</a>
-                        <p>
-                            Description: Description: My boyfriend and I wanted to try making a chrome extension;
+                        <h3>Description</h3>
+                        <p>My boyfriend and I wanted to try making a chrome extension;
                             Fluffy Tab displays a random cat gif every time users open a new tab.
                             He wrote most of the manifest file, and I wrote most of the HTML.
                             The project turned out to be quite simple once I found The Cat API.
                         </p>
-                        <p>
-                            Technologies: HTML, The Cat API, Webstorm
+                        <h3>Technologies</h3>
+                        <p>HTML, The Cat API, Webstorm
                         </p>
                         <p>
                             <a href="https://github.com/frostyshadows/FluffyTab" target="_blank">Github</a>
@@ -130,14 +135,14 @@
                 <div id="moodMusicModal" class="modalDialog">
                     <div>
                         <a href="#close" title="Close" class="close">X</a>
-                        <p>
-                            Description: My UBC Hacks team wrote a bot to respond with a music recommendation
+                        <h3>Description</h3>
+                        <p>My UBC Hacks team wrote a bot to respond with a music recommendation
                             to tweets with the hashtag #MoodMusicPls based on sentient analysis of the tweet.
                             I wrote code working with Twitter’s API including creating a stream to listen for
                             #MoodMusicPls and tweeting music recommendations at the correct user.
                         </p>
-                        <p>
-                            Technologies: Javascript, Node.js, Twitter API, SpotifyWebApi,
+                        <h3>Technologies</h3>
+                        <p>Javascript, Node.js, Twitter API, SpotifyWebApi,
                             Vivekn Sentiment Analysis, WebStorm
                         </p>
                         <p>
@@ -154,16 +159,16 @@
                 <div id="learnersModal" class="modalDialog">
                     <div>
                         <a href="#close" title="Close" class="close">X</a>
-                        <p>
-                            Description: Created with a group of friends as a summer project,
+                        <h3>Description</h3>
+                        <p>Created with a group of friends as a summer project,
                             Learner’s Quiz is an iOS app designed to help users prepare for ICBC’s
                             Learner license test. I implemented model classes to select a random road sign,
                             the correct label for the sign and three random incorrect labels and
                             the calculation of the final score. I also worked on the ViewController classes and
                             with AutoLayout to display data from model classes.
                         </p>
-                        <p>
-                            Technologies: Swift, XCode
+                        <h3>Technologies</h3>
+                        <p>Swift, XCode
                         </p>
                         <p>
                             <a href="https://github.com/frostyshadows/LearnersQuiz" target="_blank">Github</a>
@@ -179,8 +184,8 @@
                 <div id="rocketPollModal" class="modalDialog">
                     <div>
                         <a href="#close" title="Close" class="close">X</a>
-                        <p>
-                            Description: Rocket Poll is an iOS app that can replace iClickers created by Launch Pad,
+                        <h3>Description</h3>
+                        <p>Rocket Poll is an iOS app that can replace iClickers created by Launch Pad,
                             a UBC software development club. Users can create an account and ask a timed
                             multiple choice question or answer polls submitted by other users. This was my first
                             Launch Pad and I was thrown into the world of Scrum, JIRA and command line Git.
@@ -188,8 +193,8 @@
                             the tally of correct answers for each question, the addition of user data to
                             our Firebase database and wrote Xcode unit tests.
                         </p>
-                        <p>
-                            Technologies: Swift, Firebase, XCode
+                        <h3>Technologies</h3>
+                        <p>Swift, Firebase, XCode
                         </p>
                         <p>
                             <a href="https://github.com/ubclaunchpad/pollingapp" target="_blank">Github</a>
@@ -205,15 +210,18 @@
                 <div id="pacmanModal" class="modalDialog">
                     <div>
                         <a href="#close" title="Close" class="close">X</a>
-                        <p>
-                            Description: Created during nwHacks, Pac Man Run is an augmented reality
+                        <h3>
+                            Description
+                        </h3>
+                        <p>Created during nwHacks, Pac Man Run is an augmented reality
                             Android running game. The player’s goal is to pick up virtual food pellets along
                             a running route while avoiding moving ghosts. I implemented the MainActivity menu
                             and score calculator, wrote XML layout files and worked on MapsActivity,
                             where most of the game logic was, with the rest of the team.
                         </p>
+                        <h3>Technologies</h3>
                         <p>
-                            Technologies: Java, Google Maps API, Android Studio
+                            Java, Google Maps API, Android Studio
                         </p>
                         <p>
                             <a href="https://github.com/yonniluu/nwHacks" target="_blank">Github</a>
@@ -229,15 +237,16 @@
                 <div id="mindTheGapModal" class="modalDialog">
                     <div>
                         <a href="#close" title="Close" class="close">X</a>
-                        <p>
-                            Description: Created as a course project, Mind the Gap is an Android transit app
+                        <h3>Description</h3>
+                        <p>Created as a course project, Mind the Gap is an Android transit app
                             for London Underground. I implemented model classes representing tube lines,
                             tube stations, arrival board and arrival estimates. I also wrote JSON parsers
                             to show location of stops and tube lines on the London Underground and display arrival
                             information in real time.
                         </p>
+                        <h3>Technologies</h3>
                         <p>
-                            Technologies: Java, JUnit testing, Google Maps API, Transport for London API, Intellij
+                            Java, JUnit testing, Google Maps API, Transport for London API, Intellij
                         </p>
                     </div>
                 </div>
