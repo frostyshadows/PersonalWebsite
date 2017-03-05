@@ -37,6 +37,13 @@ a {
     font-size: 2em;
 }
 
+#profileImg {
+    border-radius: 50%;
+    width: 25%;
+    height: 25%;
+    border: medium white;
+}
+
 #banner h1 {
     color: #ffffff;
 }
